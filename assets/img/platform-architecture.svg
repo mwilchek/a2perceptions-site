@@ -1,0 +1,50 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#151B1F"/><stop offset="1" stop-color="#0B0F12"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="900" rx="34" fill="#080C10"/>
+  <g stroke="#253035" stroke-width="1" opacity=".55">
+    <path d="M100 150H1300M100 300H1300M100 450H1300M100 600H1300M100 750H1300"/>
+    <path d="M250 80V820M450 80V820M650 80V820M850 80V820M1050 80V820M1250 80V820"/>
+  </g>
+  <text x="96" y="95" font-family="Inter, Arial" font-size="22" font-weight="800" fill="#58FF1F" letter-spacing="2">A² PLATFORM CONCEPT</text>
+  <text x="96" y="132" font-family="Inter, Arial" font-size="48" font-weight="800" fill="#F7F3EA">Shared mission awareness at the edge</text>
+  <g font-family="Inter, Arial" fill="#F7F3EA">
+    <g transform="translate(98 220)">
+      <rect width="340" height="180" rx="22" fill="url(#card)" stroke="#58FF1F" stroke-opacity=".45"/>
+      <text x="26" y="42" font-size="16" fill="#58FF1F" font-weight="800" letter-spacing="1.5">RESPONDER XR VIEW</text>
+      <text x="26" y="83" font-size="30" font-weight="800">XREAL Aura</text>
+      <text x="26" y="118" font-size="17" fill="#B8C0BD">Hands-free cues, routes, teammate markers, hazards, and field updates.</text>
+    </g>
+    <g transform="translate(530 220)">
+      <rect width="340" height="180" rx="22" fill="url(#card)" stroke="#24D7FF" stroke-opacity=".45"/>
+      <text x="26" y="42" font-size="16" fill="#24D7FF" font-weight="800" letter-spacing="1.5">MOBILE / EDGE COMPUTE</text>
+      <text x="26" y="83" font-size="30" font-weight="800">Phone or Puck</text>
+      <text x="26" y="118" font-size="17" fill="#B8C0BD">GPS, connectivity, local services, and future sensor pipelines.</text>
+    </g>
+    <g transform="translate(962 220)">
+      <rect width="340" height="180" rx="22" fill="url(#card)" stroke="#F7F3EA" stroke-opacity=".25"/>
+      <text x="26" y="42" font-size="16" fill="#F7F3EA" font-weight="800" letter-spacing="1.5" opacity=".82">FIELD COMMAND VIEW</text>
+      <text x="26" y="83" font-size="30" font-weight="800">Tablet / Laptop</text>
+      <text x="26" y="118" font-size="17" fill="#B8C0BD">Team position, search progress, mission updates, and shared markers.</text>
+    </g>
+    <g transform="translate(302 570)">
+      <rect width="360" height="180" rx="22" fill="url(#card)" stroke="#58FF1F" stroke-opacity=".28"/>
+      <text x="26" y="42" font-size="16" fill="#58FF1F" font-weight="800" letter-spacing="1.5">SHARED PERCEPTION LAYER</text>
+      <text x="26" y="83" font-size="30" font-weight="800">Spatial Markers</text>
+      <text x="26" y="118" font-size="17" fill="#B8C0BD">Clues, hazards, cleared zones, last-known points, and command waypoints.</text>
+    </g>
+    <g transform="translate(738 570)">
+      <rect width="360" height="180" rx="22" fill="url(#card)" stroke="#24D7FF" stroke-opacity=".28"/>
+      <text x="26" y="42" font-size="16" fill="#24D7FF" font-weight="800" letter-spacing="1.5">EXTERNAL DATA</text>
+      <text x="26" y="83" font-size="30" font-weight="800">Sensors + Feeds</text>
+      <text x="26" y="118" font-size="17" fill="#B8C0BD">Drone feeds, thermal/IR, K9 alerts, maps, GPS, and existing tools.</text>
+    </g>
+  </g>
+  <g stroke="#58FF1F" stroke-width="4" fill="none" opacity=".72" filter="url(#glow)">
+    <path d="M438 310H530"/><path d="M870 310H962"/>
+    <path d="M700 400V570"/><path d="M532 570L402 400"/><path d="M868 570L1000 400"/>
+    <circle cx="700" cy="486" r="18" fill="#58FF1F" opacity=".18"/>
+  </g>
+</svg>

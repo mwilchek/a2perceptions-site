@@ -402,9 +402,13 @@ main { overflow: hidden; }
   .light-hero .container { padding-top:140px; }
   .about-hero { padding-top:145px; }
 }
-.light-page .site-header { background: rgba(244, 241, 234, 0.86); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(0,0,0,.08); }
-.light-page .nav a:not(.btn) { color: rgba(9,10,10,.78); }
-.light-page .nav a:not(.btn):hover, .light-page .nav a.active { color: #0e7f1a; }
-.light-page .nav-toggle { color: var(--ink); border-color: rgba(0,0,0,.15); }
-.light-page .site-header.scrolled { background: rgba(244, 241, 234, 0.92); border-bottom: 1px solid rgba(0,0,0,.12); }
-@media (max-width: 900px) { .light-page .nav { background: rgba(244,241,234,.96); border-color: rgba(0,0,0,.12); } }
+.light-page .site-header {
+  background: rgba(7, 10, 13, 0.94);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(88,255,31,.28);
+}
+.light-page .nav a:not(.btn) { color: rgba(247,243,234,.84); }
+.light-page .nav a:not(.btn):hover, .light-page .nav a.active { color: var(--green); }
+.light-page .nav-toggle { color: var(--text); border-color: var(--line); }
+.light-page .site-header.scrolled { background: rgba(7, 10, 13, 0.94); border-bottom: 1px solid rgba(88,255,31,.28); }
+@media (max-width: 900px) { .light-page .nav { background: rgba(7,10,13,.96); border-color: var(--line); } }

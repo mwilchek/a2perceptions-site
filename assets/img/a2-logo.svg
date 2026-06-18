@@ -4,6 +4,6 @@
   <rect x="3" y="3" width="58" height="58" rx="14" stroke="#58FF1F" stroke-width="3"/>
   <path d="M16 47L32 16L48 47H40.4L37.2 40H26.8L23.6 47H16Z" fill="#F7F3EA"/>
   <path d="M29.4 34.6H34.8L32.1 28.1L29.4 34.6Z" fill="#0B0F12"/>
-  <text x="47" y="18" fill="#F7F3EA" font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="18" font-weight="900">²</text>
+  <text x="39" y="27" fill="#F7F3EA" font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="20" font-weight="900">²</text>
   <text x="78" y="40" fill="#F7F3EA" font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="1.6">PERCEPTIONS</text>
 </svg>

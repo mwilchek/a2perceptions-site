@@ -67,7 +67,7 @@ img, video { max-width: 100%; display: block; }
   padding: 14px 22px;
 }
 .logo { display: flex; align-items: center; min-width: 300px; max-width: 300px; overflow: visible; }
-.logo img { width: 300px; height: auto; }
+.logo img { width: 344px; max-width: 100%; height: auto; }
 .nav { display: flex; align-items: center; gap: 28px; }
 .nav a {
   color: rgba(247,243,234,.84);
@@ -203,7 +203,8 @@ main { overflow: hidden; }
   padding: 28px;
   box-shadow: 0 1px 0 rgba(255,255,255,.08) inset;
 }
-.card.dark { background: linear-gradient(145deg, #11181c, #0a0f12); }
+.card.dark { background: linear-gradient(145deg, #11181c, #0a0f12); color: var(--text); }
+.card.dark h3 { color: var(--text); }
 .card h3 { font-size: 26px; margin-bottom: 14px; letter-spacing: -.025em; }
 .card p { color: var(--muted); margin:0; }
 .card .num { font-family:"Space Grotesk"; color: var(--green); font-weight:900; font-size: 18px; margin-bottom:18px; }
@@ -377,7 +378,7 @@ main { overflow: hidden; }
   .nav.open { display:flex; }
   .header-inner { padding: 12px 20px; }
   .logo { min-width: 250px; max-width: 250px; }
-  .logo img { width: 250px; }
+  .logo img { width: 290px; max-width: 100%; }
   h1 { font-size: clamp(48px, 16vw, 82px); }
   .hero-content { padding-top:150px; }
   .section-header { display:block; }

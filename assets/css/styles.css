@@ -66,8 +66,8 @@ img, video { max-width: 100%; display: block; }
   gap: 24px;
   padding: 14px 22px;
 }
-.logo { display: flex; align-items: center; min-width: 190px; }
-.logo img { width: 212px; height: auto; }
+.logo { display: flex; align-items: center; min-width: 300px; max-width: 300px; overflow: visible; }
+.logo img { width: 300px; height: auto; }
 .nav { display: flex; align-items: center; gap: 28px; }
 .nav a {
   color: rgba(247,243,234,.84);
@@ -339,7 +339,7 @@ main { overflow: hidden; }
 .mission-vision h3 { font-size:34px; }
 .mission-vision p { color:#3e4744; font-size:19px; }
 .founder-card { display:grid; grid-template-columns: 180px 1fr; gap:24px; align-items:center; }
-.founder-card img { border-radius:22px; border:1px solid var(--line); background:#0b0f12; }
+.founder-card img { width: 180px; aspect-ratio: 1 / 1; object-fit: cover; border-radius:22px; border:1px solid var(--line); background:#0b0f12; }
 .role { color:var(--green); text-transform:uppercase; font-size:12px; letter-spacing:.12em; font-weight:900; margin:4px 0 12px; }
 
 .contact-band { position:relative; background:#06090c; min-height:430px; display:grid; align-items:center; overflow:hidden; }
@@ -376,7 +376,8 @@ main { overflow: hidden; }
   }
   .nav.open { display:flex; }
   .header-inner { padding: 12px 20px; }
-  .logo img { width: 190px; }
+  .logo { min-width: 250px; max-width: 250px; }
+  .logo img { width: 250px; }
   h1 { font-size: clamp(48px, 16vw, 82px); }
   .hero-content { padding-top:150px; }
   .section-header { display:block; }

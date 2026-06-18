@@ -1,10 +1,9 @@
-<svg width="300" height="64" viewBox="0 0 300 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">A² Perceptions logo dark</title>
-  <desc id="desc">Boxed A squared mark followed by the Perceptions wordmark.</desc>
+<svg width="360" height="64" viewBox="0 0 360 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">A² Perceptions logo</title>
+  <desc id="desc">Boxed A squared mark followed by the full Perceptions wordmark.</desc>
   <rect x="3" y="3" width="58" height="58" rx="14" stroke="#0E7F1A" stroke-width="3"/>
   <path d="M16 47L32 16L48 47H40.4L37.2 40H26.8L23.6 47H16Z" fill="#090A0A"/>
   <path d="M29.4 34.6H34.8L32.1 28.1L29.4 34.6Z" fill="#F4F1EA"/>
-  <text x="50" y="18" fill="#0E7F1A" font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="12" font-weight="900">2</text>
-  <circle cx="53" cy="12" r="3" fill="#0E7F1A"/>
-  <text x="76" y="40" fill="#090A0A" font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="1.9">PERCEPTIONS</text>
+  <text x="47" y="18" fill="#090A0A" font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="18" font-weight="900">²</text>
+  <text x="78" y="40" fill="#090A0A" font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="1.6">PERCEPTIONS</text>
 </svg>

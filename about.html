@@ -4,25 +4,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | A² Perceptions</title>
-  <meta name="description" content="Learn about A² Perceptions, its shared perception research origins, founders, and early public-safety XR platform vision.">
+  <meta name="description" content="Explore the A² Perceptions platform concept: responder XR view, shared spatial markers, field command, and future sensor integrations.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="icon" href="assets/img/a2-mark.svg" type="image/svg+xml">
+  <style>
+    /* About page header override: keep the nav dark even at top of page */
+    .about-fixed-dark-nav {
+      background: rgba(7, 12, 13, 0.96) !important;
+      border-bottom: 1px solid rgba(88, 255, 31, 0.22) !important;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+    }
+
+    .about-fixed-dark-nav .nav a:not(.btn) {
+      color: rgba(247, 243, 234, 0.78) !important;
+    }
+
+    .about-fixed-dark-nav .nav a:not(.btn):hover,
+    .about-fixed-dark-nav .nav a.active {
+      color: var(--green) !important;
+    }
+
+    .about-fixed-dark-nav .nav-toggle {
+      color: var(--text) !important;
+      border-color: rgba(247, 243, 234, 0.18) !important;
+    }
+  </style>
 </head>
-<body class="light-page">
+<body>
   <div class="announcement">A² Perceptions is developing shared field intelligence for public-safety teams</div>
-  <header class="site-header">
+  <header class="site-header about-fixed-dark-nav" aria-label="Primary navigation">
     <div class="header-inner">
-      <a class="logo" href="index.html"><img src="assets/img/a2-logo-dark.svg" alt="A² Perceptions"></a>
+      <a class="logo" href="index.html"><img src="assets/img/a2-logo.svg" alt="A² Perceptions"></a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="nav">
         <a href="index.html">Home</a>
         <a href="vision.html">Vision</a>
         <a href="platform.html">Platform</a>
         <a class="active" href="about.html">About</a>
-        <a class="btn" href="#connect">Connect With Us</a>
+        <a class="btn" href="about.html#connect">Connect With Us</a>
       </nav>
     </div>
   </header>

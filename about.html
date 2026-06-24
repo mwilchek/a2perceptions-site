@@ -11,33 +11,33 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="icon" href="assets/img/a2-mark.svg" type="image/svg+xml">
   <style>
-    /* About page header override: keep the nav dark even at top of page */
-    .about-fixed-dark-nav {
-      background: rgba(7, 12, 13, 0.96) !important;
+    /* About page: match the dark navigation treatment used on the other pages */
+    .about-page .site-header {
+      background: linear-gradient(90deg, rgba(7, 12, 13, 0.98), rgba(7, 28, 12, 0.95)) !important;
       border-bottom: 1px solid rgba(88, 255, 31, 0.22) !important;
       box-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
     }
 
-    .about-fixed-dark-nav .nav a:not(.btn) {
+    .about-page .site-header .logo img {
+      opacity: 1 !important;
+      filter: none !important;
+    }
+
+    .about-page .site-header .nav a:not(.btn) {
       color: rgba(247, 243, 234, 0.78) !important;
     }
 
-    .about-fixed-dark-nav .nav a:not(.btn):hover,
-    .about-fixed-dark-nav .nav a.active {
+    .about-page .site-header .nav a:not(.btn):hover,
+    .about-page .site-header .nav a.active {
       color: var(--green) !important;
-    }
-
-    .about-fixed-dark-nav .nav-toggle {
-      color: var(--text) !important;
-      border-color: rgba(247, 243, 234, 0.18) !important;
     }
   </style>
 </head>
-<body>
+<body class="about-page">
   <div class="announcement">A² Perceptions is developing shared field intelligence for public-safety teams</div>
-  <header class="site-header about-fixed-dark-nav" aria-label="Primary navigation">
+  <header class="site-header" aria-label="Primary navigation">
     <div class="header-inner">
-      <a class="logo" href="index.html"><img src="assets/img/a2-logo.svg" alt="A² Perceptions"></a>
+      <a class="logo" href="index.html" aria-label="A² Perceptions home"><img src="assets/img/a2-logo.svg" alt="A² Perceptions"></a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="nav">
         <a href="index.html">Home</a>

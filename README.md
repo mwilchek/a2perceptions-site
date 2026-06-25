@@ -94,32 +94,3 @@ assets/video/
 ```
 
 This folder may include the homepage field-loop background video or related concept media.
-
-## Deployment
-
-This site is designed for GitHub Pages hosting.
-
-Typical deployment flow:
-
-1. Replace or update the relevant files in the repository.
-2. Commit the changes to the `main` branch.
-3. Ensure GitHub Pages is configured to deploy from the `main` branch and root directory.
-4. Wait for GitHub Pages to rebuild and publish the updated site.
-
-## Repository Notes
-
-- The website is static HTML, CSS, JavaScript, images, and video.
-- The current navigation includes Home, Vision, About, and Connect With Us.
-- The Platform page has been removed from the active navigation.
-- Concept visuals are illustrative and represent the product vision, not a finished deployed platform.
-- The company is still in an early development stage and the site should be treated as a vision and customer-discovery website rather than a mature product sales page.
-
-## Suggested Editing Practice
-
-When making future updates:
-
-- Avoid changing `index.html` unless the Home page is intentionally being revised.
-- Keep page-specific layout changes in page-specific CSS files when possible.
-- Preserve the dark tactical design language across pages.
-- Keep the content concise, clear, and focused on SAR-first public-safety workflows.
-- Avoid adding funding or grant details unless the company intentionally decides to make them public.

@@ -4,23 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vision | A² Perceptions</title>
-  <meta name="description" content="The A² Perceptions vision for SAR-focused XR mission awareness: navigation, interview intelligence, multi-feed correlation, and collaborative map planning.">
+  <meta name="description" content="The A² Perceptions vision: field-aligned XR guidance for SAR teams, grounded in shared-perception research, responder-centered discovery, and a practical commercialization path.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/vision-page.css">
   <link rel="icon" href="assets/img/a2-mark.svg" type="image/svg+xml">
 </head>
-<body class="light-page">
+<body class="vision-redesign">
   <div class="announcement">A² Perceptions is developing shared field intelligence for public-safety teams</div>
-  <header class="site-header">
+  <header class="site-header" aria-label="Primary navigation">
     <div class="header-inner">
-      <a class="logo" href="index.html"><img src="assets/img/a2-logo-dark.svg" alt="A² Perceptions"></a>
+      <a class="logo" href="index.html" aria-label="A² Perceptions home"><img src="assets/img/a2-logo.svg" alt="A² Perceptions"></a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="nav">
         <a href="index.html">Home</a>
         <a class="active" href="vision.html">Vision</a>
-        <a href="platform.html">Platform</a>
         <a href="about.html">About</a>
         <a class="btn" href="about.html#connect">Connect With Us</a>
       </nav>
@@ -28,132 +28,215 @@
   </header>
 
   <main>
-    <section class="light-hero">
-      <div class="container">
-        <p class="eyebrow reveal">The vision</p>
-        <h1 class="reveal">Mission awareness that moves with the search.</h1>
-        <p class="lead reveal">The updated concept set makes the A² vision more concrete: responders should be able to navigate the terrain, capture witness knowledge, correlate remote sensor cues, and align on a shared plan without breaking focus on the mission.</p>
-        <div class="bracket reveal">[ NAVIGATE · CAPTURE · CORRELATE · COORDINATE ]</div>
-      </div>
-    </section>
-
-    <section class="section problem-band">
-      <div class="container">
-        <div class="section-header stack">
-          <p class="section-kicker reveal">The north star</p>
-          <h2 class="reveal">Turn fragmented SAR information into one shared field-intelligence loop.</h2>
-          <p class="copy reveal">A² is not trying to replace radios, maps, or existing tools. The vision is to connect them more effectively so the responder in motion and the team behind them can act on a clearer shared picture.</p>
-        </div>
-        <div class="grid cols-4">
-          <article class="card reveal"><div class="num">01</div><h3>Guide movement</h3><p>Show where the team is, where clues were found, what sector is active, and where extraction or rendezvous points sit.</p></article>
-          <article class="card reveal"><div class="num">02</div><h3>Structure information</h3><p>Capture interview details in usable form so witness statements can become mission-relevant facts instead of isolated notes.</p></article>
-          <article class="card reveal"><div class="num">03</div><h3>Fuse evidence</h3><p>Compare detections and cues across video feeds, teammates, and AI assistance to raise confidence and reduce noise.</p></article>
-          <article class="card reveal"><div class="num">04</div><h3>Align the team</h3><p>Keep route plans, status, and tasking synchronized so the whole search effort works from the same map and intent.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="navigation-workflow" class="section workflow-section">
-      <div class="container split">
-        <div>
-          <p class="section-kicker reveal">Workflow 01</p>
-          <h2 class="reveal">Navigate the terrain with mission context in view.</h2>
-          <p class="copy reveal">The navigation concept shows more than a compass. It combines waypoints, team positions, clue markers, a search sector, extraction direction, GPS and comms status, and a mini topo map so the responder can move with a better sense of the overall search picture.</p>
-          <ul class="feature-list reveal">
-            <li>Search sector and last-seen context tied to place.</li>
-            <li>Waypoint, teammate, clue, and extraction distance cues.</li>
-            <li>Persistent awareness of GPS, comms, battery, and team status.</li>
-          </ul>
-        </div>
-        <div class="visual reveal"><div class="visual-frame"><img src="assets/img/sar-xr-navigation.png" alt="Navigation concept UI with waypoint, teammate, clue, and extraction indicators."><div class="visual-caption">Updated concept workflow: navigation and spatial awareness.</div></div></div>
-      </div>
-    </section>
-
-    <section id="interview-workflow" class="section problem-band workflow-section">
-      <div class="container split reverse">
-        <div class="visual reveal"><div class="visual-frame"><img src="assets/img/sar-xr-interview-assist.png" alt="Interview Assist concept UI showing witness transcript, key facts, LLM analysis, and cross reference map."><div class="visual-caption">Updated concept workflow: interview capture and LLM-assisted cross-reference.</div></div></div>
-        <div>
-          <p class="section-kicker reveal">Workflow 02</p>
-          <h2 class="reveal">Capture witness information as structured mission intelligence.</h2>
-          <p class="copy reveal">The interview-assist concept introduces a critical part of the search workflow: a responder talking to a witness while the system records what was said, extracts key facts, compares it to other team interviews, and shows how those statements fit the operational map.</p>
-          <ul class="feature-list reveal dark-text-list">
-            <li>Live transcript capture for the field interviewer.</li>
-            <li>Key facts like time, clothing, direction, and last-seen location.</li>
-            <li>Cross-reference and consensus scoring across witness reports.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="feed-workflow" class="section workflow-section">
-      <div class="container split">
-        <div>
-          <p class="section-kicker reveal">Workflow 03</p>
-          <h2 class="reveal">Correlate live feeds and elevate the right alert.</h2>
-          <p class="copy reveal">The multi-feed concept shows how A² could connect what teams are already using: teammate XR feeds, drones, trail cameras, canine-mounted cameras, and AI detection overlays. The goal is not more video for its own sake, but faster confirmation and clearer team alerts.</p>
-          <ul class="feature-list reveal">
-            <li>Multiple live sources available from one wearable view.</li>
-            <li>Cross-feed correlation and confidence scoring for possible subject cues.</li>
-            <li>Broadcast-ready alert workflow for high-priority findings.</li>
-          </ul>
-        </div>
-        <div class="visual reveal"><div class="visual-frame"><img src="assets/img/sar-xr-multi-feed-assist.png" alt="Multi-Feed Assist concept UI showing live feeds and an alert broadcast panel."><div class="visual-caption">Updated concept workflow: multi-feed awareness and AI-assisted alerting.</div></div></div>
-      </div>
-    </section>
-
-    <section id="map-workflow" class="section problem-band workflow-section">
-      <div class="container split reverse">
-        <div class="visual reveal"><div class="visual-frame"><img src="assets/img/sar-xr-collaborative-map.png" alt="Collaborative Map concept UI showing four rescuers interacting with a shared 3D topographic map."><div class="visual-caption">Updated concept workflow: collaborative terrain planning and synchronized execution.</div></div></div>
-        <div>
-          <p class="section-kicker reveal">Workflow 04</p>
-          <h2 class="reveal">Bring the team together around a shared 3D operational map.</h2>
-          <p class="copy reveal">The collaborative-map concept shifts from the individual wearer to the team. Responders can look at the same terrain model, inspect route plans, see team statuses, and sync changes back out to the field. That creates a more tangible common operating picture than voice-only coordination.</p>
-          <ul class="feature-list reveal dark-text-list">
-            <li>Shared 3D terrain, clues, last-seen markers, drone and K9 context.</li>
-            <li>Route plan summaries and synchronized task distribution.</li>
-            <li>A team-level view that complements the individual XR wearer.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <p class="section-kicker reveal">Development principles</p>
-            <h2 class="reveal">Built for field reality, not for a demo alone.</h2>
+    <section class="vision-hero">
+      <div class="container vision-hero-grid">
+        <div class="vision-hero-copy">
+          <p class="eyebrow reveal">Vision</p>
+          <h1 class="reveal">Field-aligned XR guidance for uncertain public-safety terrain.</h1>
+          <p class="lead reveal">A² Perceptions is translating shared-perception research into a SAR-first platform that turns fragmented mission data into spatial guidance, confidence-aware cues, and team coordination support.</p>
+          <div class="hero-actions reveal">
+            <a class="btn" href="#research-insights">Research Insights</a>
+            <a class="btn secondary" href="#technical-direction">Technical Direction</a>
           </div>
-          <p class="copy reveal">These concepts are still aspirational, but they are intended to be operationally grounded. The goal is to mature them with responder feedback, practical hardware decisions, and honest evaluation of where XR and AI actually help.</p>
         </div>
-        <div class="grid cols-4">
-          <article class="card dark cyan reveal"><div class="num">01</div><h3>Responder-first</h3><p>Keep interfaces glanceable and mission-relevant rather than cognitively heavy.</p></article>
-          <article class="card dark cyan reveal"><div class="num">02</div><h3>Spatial by design</h3><p>Represent information as places, paths, sectors, cues, and relationships in the environment.</p></article>
-          <article class="card dark cyan reveal"><div class="num">03</div><h3>AI as support</h3><p>Use AI to summarize, correlate, and prioritize, not to replace responder judgment.</p></article>
-          <article class="card dark cyan reveal"><div class="num">04</div><h3>Path to pilots</h3><p>Move from concept clarity toward prototype refinement and future field collaboration.</p></article>
+        <aside class="vision-thesis-card reveal" aria-label="Vision thesis">
+          <p class="section-kicker">Commercial thesis</p>
+          <h2>From shared perception to field guidance.</h2>
+          <p>Research showed that shared AR information can improve team sensemaking. Ongoing customer discovery is sharpening the commercial problem: SAR teams need field-aligned guidance that works amid GPS drift, fragmented tools, uncertain sensor data, and limited infrastructure.</p>
+        </aside>
+      </div>
+    </section>
+
+
+    <section id="research-insights" class="section research-insights-section">
+      <div class="container">
+        <div class="vision-section-head compact">
+          <p class="section-kicker reveal">Research insights</p>
+          <h2 class="reveal">What the prior studies taught us.</h2>
+          <p class="copy reveal">The A² vision is not starting from a generic XR concept. It is built from research into shared perception, canine-team sensemaking, and distributed AI collaboration for search-and-rescue and emergency-response scenarios.</p>
+        </div>
+
+        <div class="insight-stack">
+
+          <article class="insight-panel reveal">
+            <div class="insight-number">01</div>
+            <div>
+              <h3>Field XR needs privacy and trust designed into the platform from the beginning.</h3>
+              <p>BystandAR demonstrated a practical AR privacy-protection approach that uses eye gaze, voice, and spatial awareness to distinguish interaction subjects from bystanders. In a 16-participant study, the system protected 98.14% of bystanders while preserving 96.27% subject availability and maintaining 52.6 FPS with on-device processing.</p>
+            </div>
+            <div class="product-implication">
+              <span>Product implication</span>
+              <p>A² should treat privacy, data minimization, and on-device processing as core design principles for responder XR—not as later compliance add-ons.</p>
+            </div>
+          </article>
+          <article class="insight-panel reveal">
+            <div class="insight-number">02</div>
+            <div>
+              <h3>Shared perception can reduce the time needed to locate critical information.</h3>
+              <p>Ajna showed that shared spatial AR references can help users distribute detections and spatial context without relying on QR codes, extra edge hardware, or cloud services. In a simulated SAR study, participants using Ajna located victims 15% faster, 89% reported improved situational awareness, and 13 of 15 rated the system acceptable for usability.</p>
+            </div>
+            <div class="product-implication">
+              <span>Product implication</span>
+              <p>A² should focus less on novelty overlays and more on practical shared spatial references: teammate locations, clue markers, last-seen points, hazards, and routes that can be acted on quickly.</p>
+            </div>
+          </article>
+
+          <article class="insight-panel reveal">
+            <div class="insight-number">03</div>
+            <div>
+              <h3>Remote sensors can help, but only if they reduce—not add—sensemaking burden.</h3>
+              <p>KHAIT showed how AI-enabled canine perspective data can help handlers interpret where a survivor may be and navigate more efficiently, with an average 22% time-efficiency improvement in tested trials. The results also varied by scenario, canine, and user interaction, reinforcing that field systems must be designed for uncertainty and operational variation.</p>
+            </div>
+            <div class="product-implication">
+              <span>Product implication</span>
+              <p>A² should treat drones, K9 cameras, trail cameras, and teammate feeds as mission inputs that need summarization, prioritization, and confidence cues—not just more video windows.</p>
+            </div>
+          </article>
+
+          <article class="insight-panel reveal">
+            <div class="insight-number">04</div>
+            <div>
+              <h3>Distributed AI can speed consensus, but trust must be made visible.</h3>
+              <p>The distributed-AI SAR study used 24 subject-matter experts and found that AI-assisted teams reached decision consensus faster than controls. The same study emphasized that AI support introduces new HCI challenges: trust cues, conflicting detections, attention management, and the need to turn detections into shared situational awareness without overwhelming the team.</p>
+            </div>
+            <div class="product-implication">
+              <span>Product implication</span>
+              <p>A² should communicate confidence, uncertainty, and corroboration directly in the workflow so human judgment remains central during ambiguous missions.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
+
+
+    <section id="technical-direction" class="section technical-direction-section">
+      <div class="container">
+        <div class="technical-direction-head">
+          <div>
+            <p class="section-kicker reveal">Technical direction</p>
+            <h2 class="reveal">Research evidence points toward a focused platform architecture.</h2>
+          </div>
+          <p class="copy reveal">A² is moving toward a SAR-first system that turns uncertain field data into interpretable spatial guidance. The direction is based on what the research repeatedly surfaced: location must be useful even when imperfect, mission data must become shared context, and AI cues must communicate uncertainty rather than imply certainty.</p>
+        </div>
+
+        <div class="technical-architecture">
+          <article class="architecture-card reveal">
+            <span>01</span>
+            <h3>Hybrid outdoor localization</h3>
+            <p>Blend GPS/GNSS, visual-inertial tracking, spatial anchoring, and map-based references so guidance remains useful when location estimates drift.</p>
+          </article>
+          <article class="architecture-card reveal">
+            <span>02</span>
+            <h3>Mission-data interoperability</h3>
+            <p>Transform routes, search assignments, hazards, clues, teammate locations, and boundaries into XR-ready spatial cues.</p>
+          </article>
+          <article class="architecture-card reveal">
+            <span>03</span>
+            <h3>Uncertainty-aware cueing</h3>
+            <p>Show whether cues are precise, approximate, degraded, or corroborated so responders can interpret guidance without over-trusting automation.</p>
+          </article>
+        </div>
+
+        <div class="feasibility-band reveal">
+          <div>
+            <p class="section-kicker">Core platform question</p>
+            <h3>Can uncertain mission data become field-aligned cues responders can interpret quickly?</h3>
+          </div>
+          <p>The answer will shape whether A² can mature from research foundation to repeatable public-safety platform.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section id="references" class="section vision-references-section">
+      <div class="container">
+        <div class="vision-section-head compact">
+          <p class="section-kicker reveal">Research to commercialization timeline</p>
+          <h2 class="reveal">How the research foundation grows into the A² platform vision.</h2>
+          <p class="copy reveal">The publication timeline shows how the team’s research connects to the commercial direction: privacy-preserving AR, shared spatial perception, human/AI teaming, distributed SAR collaboration, and the current path toward field-aligned XR guidance.</p>
+        </div>
+
+        <div class="research-timeline reveal" aria-label="A² Perceptions research and commercialization timeline">
+          <article class="timeline-item">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-icon" aria-hidden="true">🛡️</div>
+            <div class="timeline-content">
+              <p class="timeline-label">Privacy-first AR</p>
+              <h3>BystandAR</h3>
+              <p>Demonstrated real-time, on-device protection of bystander camera and depth data using gaze, voice, and spatial awareness. This supports A²’s need to build field XR around privacy, trust, and edge processing.</p>
+              <a href="https://doi.org/10.1145/3581791.3596830" target="_blank" rel="noopener noreferrer">Corbett et al., MobiSys 2023</a>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <div class="timeline-icon" aria-hidden="true">🧭</div>
+            <div class="timeline-content">
+              <p class="timeline-label">Shared spatial perception</p>
+              <h3>Ajna</h3>
+              <p>Showed that wearable shared perception can improve team sensemaking, reduce search time, and increase situational awareness in emergency-response scenarios.</p>
+              <a href="https://doi.org/10.1145/3690829" target="_blank" rel="noopener noreferrer">Wilchek et al., ACM TiiS 2025</a>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <div class="timeline-icon" aria-hidden="true">🐕</div>
+            <div class="timeline-content">
+              <p class="timeline-label">Human/AI/K9 teaming</p>
+              <h3>KHAIT</h3>
+              <p>Explored AI-supported canine-team sensemaking, showing how remote sensing and AI cues can help handlers interpret survivor location evidence more efficiently.</p>
+              <a href="https://doi.org/10.1145/3708359.3712107" target="_blank" rel="noopener noreferrer">Wilchek et al., IUI 2025</a>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-year">2026</div>
+            <div class="timeline-icon" aria-hidden="true">🤝</div>
+            <div class="timeline-content">
+              <p class="timeline-label">Distributed AI collaboration</p>
+              <h3>Distributed AI for SAR</h3>
+              <p>Examined how distributed AI affects trust, collaboration, and consensus for SAR teams, reinforcing the need for confidence-aware cues and human-centered AI coordination.</p>
+              <a href="https://doi.org/10.1145/3772318.3791523" target="_blank" rel="noopener noreferrer">Wilchek et al., CHI 2026</a>
+            </div>
+          </article>
+
+          <article class="timeline-item now-item">
+            <div class="timeline-year">Now</div>
+            <div class="timeline-icon" aria-hidden="true">🚀</div>
+            <div class="timeline-content">
+              <p class="timeline-label">Lab to launch</p>
+              <h3>A² Perceptions commercialization path</h3>
+              <p>Responder-centered discovery and early commercialization planning translate the research lineage into a SAR-first platform direction focused on hybrid localization, mission-data interoperability, and uncertainty-aware XR cueing.</p>
+              <a href="#technical-direction">View the technical direction</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
 
     <section class="contact-band">
       <div class="container">
         <div class="contact-box reveal">
           <p class="section-kicker">Next step</p>
-          <h2>Help pressure-test the vision.</h2>
-          <p>We are looking for conversations with SAR teams, public-safety professionals, emergency managers, and technical collaborators who can help refine these workflows before formal pilots.</p>
+          <h2>Help pressure-test the launch path.</h2>
+          <p>We welcome conversations with SAR teams, public-safety professionals, emergency managers, researchers, and technology partners who can help refine the first capability set and future pilots.</p>
           <a class="btn" href="about.html#connect">Connect With Us</a>
         </div>
-        <img class="contact-logo reveal" src="assets/img/a2-emblem-official.png" alt="Official A² Perceptions emblem">
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-col footer-logo"><img src="assets/img/a2-logo-official.png" alt="Official A² Perceptions logo"><p>Shared field intelligence for public-safety teams.</p></div>
-      <div class="footer-col"><h4>Explore</h4><a href="index.html">Home</a><a href="platform.html">Platform</a><a href="about.html">About</a></div>
-      <div class="footer-col"><h4>Workflows</h4><a href="#navigation-workflow">Navigation</a><a href="#interview-workflow">Interview assist</a><a href="#feed-workflow">Multi-feed assist</a></div>
-      <div class="footer-col"><h4>Connect</h4><a href="about.html#connect">Contact</a><a href="about.html#founders">Founders</a><a href="platform.html">Platform concept</a></div>
+      <div class="footer-col footer-logo"><img src="assets/img/a2-logo-official.png" alt="Official A² Perceptions logo"><p>Shared Field Intelligence for Public-Safety</p></div>
+      <div class="footer-col"><h4>Explore</h4><a href="index.html">Home</a><a href="vision.html">Vision</a><a href="about.html">About</a></div>
+      <div class="footer-col"><h4>Vision</h4><a href="#research-insights">Research Insights</a><a href="#technical-direction">Technical Direction</a><a href="#references">Research Timeline</a></div>
+      <div class="footer-col"><h4>Connect</h4><a href="about.html#connect">Contact</a><a href="about.html#founders">Founders</a><a href="#references">Research Timeline</a></div>
     </div>
     <div class="footer-bottom"><div class="container"><span>© <span id="year">2026</span> A² Perceptions LLC. All rights reserved.</span><span>Platform in development. Concept visuals are illustrative.</span></div></div>
   </footer>

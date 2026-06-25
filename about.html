@@ -4,36 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | A² Perceptions</title>
-  <meta name="description" content="Explore the A² Perceptions platform concept: responder XR view, shared spatial markers, field command, and future sensor integrations.">
+  <meta name="description" content="Learn about A² Perceptions, a Northern Virginia startup translating shared perception, XR, and AI research into public-safety mission-awareness tools.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/about-page.css">
   <link rel="icon" href="assets/img/a2-mark.svg" type="image/svg+xml">
-  <style>
-    /* About page: match the dark navigation treatment used on the other pages */
-    .about-page .site-header {
-      background: linear-gradient(90deg, rgba(7, 12, 13, 0.98), rgba(7, 28, 12, 0.95)) !important;
-      border-bottom: 1px solid rgba(88, 255, 31, 0.22) !important;
-      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
-    }
-
-    .about-page .site-header .logo img {
-      opacity: 1 !important;
-      filter: none !important;
-    }
-
-    .about-page .site-header .nav a:not(.btn) {
-      color: rgba(247, 243, 234, 0.78) !important;
-    }
-
-    .about-page .site-header .nav a:not(.btn):hover,
-    .about-page .site-header .nav a.active {
-      color: var(--green) !important;
-    }
-  </style>
 </head>
-<body class="about-page">
+<body class="about-redesign">
   <div class="announcement">A² Perceptions is developing shared field intelligence for public-safety teams</div>
   <header class="site-header" aria-label="Primary navigation">
     <div class="header-inner">
@@ -42,7 +21,6 @@
       <nav class="nav">
         <a href="index.html">Home</a>
         <a href="vision.html">Vision</a>
-        <a href="platform.html">Platform</a>
         <a class="active" href="about.html">About</a>
         <a class="btn" href="about.html#connect">Connect With Us</a>
       </nav>
@@ -51,74 +29,72 @@
 
   <main>
     <section class="about-hero">
-      <div class="container about-hero-grid">
-        <div>
-          <p class="eyebrow reveal">Who we are</p>
-          <h1 class="reveal">Built from shared perception research. Focused on public-safety response.</h1>
-          <p class="lead reveal">A² Perceptions LLC was founded to translate XR, AI, and shared perception research into practical tools for responders operating in complex environments.</p>
-        </div>
-        <div class="about-brand reveal">
-          <img src="assets/img/a2-logo-official.png" alt="Official A² Perceptions company logo">
-          <p class="brand-note">Official company logo for A² Perceptions LLC.</p>
-        </div>
+      <div class="container about-hero-inner">
+        <p class="eyebrow reveal">Who we are</p>
+        <h1 class="reveal">Building shared field intelligence from Northern Virginia.</h1>
+        <p class="about-location reveal">Located in Northern Virginia, A² Perceptions sits in the middle of local SAR teams that operate throughout the state and near Washington, D.C., where public-safety experts, emergency managers, federal agencies, and technology leaders converge.</p>
       </div>
     </section>
 
-    <section class="section problem-band">
-      <div class="container split">
-        <div>
-          <p class="section-kicker reveal">Our origin</p>
-          <h2 class="reveal">From Ajna to the field.</h2>
-        </div>
-        <div>
-          <p class="copy reveal">The A² vision grows from prior work on Ajna, a shared-perception XR research platform exploring how multiple users can see, share, and act on spatial information together. That foundation shaped a larger question: how could similar ideas support responders in search, rescue, police, EMS, and disaster response operations?</p>
-          <p class="copy reveal">A² Perceptions is the commercialization vehicle for turning that research direction into an early platform concept: wearable mission awareness, shared spatial markers, and command-connected field intelligence for public-safety teams.</p>
-        </div>
+    <section class="section about-mission-section">
+      <div class="container mission-vision-pair">
+        <article class="mission-block reveal">
+          <p class="section-kicker">Mission</p>
+          <h2>Help responders make faster, clearer decisions in the field.</h2>
+          <p>A² Perceptions exists to help public-safety teams perceive, share, and act on mission-critical information without pulling attention away from the environment in front of them.</p>
+        </article>
+        <article class="mission-block reveal">
+          <p class="section-kicker">Vision</p>
+          <h2>Make complex field data understandable at the speed of response.</h2>
+          <p>Our vision is a wearable XR mission-awareness platform that turns routes, clues, teammate positions, sensor feeds, and uncertainty into shared spatial context that responders can trust and use.</p>
+        </article>
       </div>
     </section>
 
-    <section class="section mission-vision">
-      <div class="container">
-        <div class="section-header stack">
-          <p class="section-kicker reveal">Mission &amp; vision</p>
-          <h2 class="reveal">Make field awareness easier to share.</h2>
+    <section class="section about-story-section">
+      <div class="container story-grid">
+        <div class="story-copy reveal">
+          <p class="section-kicker">Our story</p>
+          <h2>From shared-perception research to a SAR-first startup.</h2>
+          <p>A² Perceptions grew out of academic work on shared perception, human-AI teaming, and XR systems for emergency response. The research asked a practical question: how can distributed responders see, share, and coordinate around the same mission context?</p>
+          <p>That question is now becoming a company. We are refining early research insights into commercial workflows for search and rescue first, with future public-safety applications across police, EMS, disaster response, and field command.</p>
         </div>
-        <div class="grid cols-2">
-          <article class="card reveal">
-            <h3>Mission</h3>
-            <p>Help public-safety teams perceive, coordinate, and act with greater confidence in complex environments.</p>
-          </article>
-          <article class="card reveal">
-            <h3>Vision</h3>
-            <p>A future where responders can access shared mission awareness in real time without losing focus on the people and environment in front of them.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="founders" class="section">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <p class="section-kicker reveal">Founders</p>
-            <h2 class="reveal">Researchers, builders, and public-safety technology operators.</h2>
+        <div class="story-panel reveal" aria-label="A² operating context">
+          <div class="story-stat">
+            <span>Northern Virginia</span>
+            <strong>Field, policy, and technology meet here.</strong>
           </div>
-          <p class="copy reveal">A² is led by two founders with shared roots in Virginia Tech XR research and a focus on translating advanced perception technologies into useful field systems.</p>
+          <div class="story-lines">
+            <p>SAR teams operate across forests, mountains, trails, parks, rural areas, waterways, and urban edges throughout Virginia.</p>
+            <p>The Washington, D.C. region brings together public-safety practitioners, emergency managers, researchers, federal stakeholders, and technology partners.</p>
+          </div>
         </div>
-        <div class="grid cols-2">
-          <article class="card dark founder-card reveal">
+      </div>
+    </section>
+
+    <section id="founders" class="section founders-about-section">
+      <div class="container">
+        <div class="about-section-head reveal">
+          <p class="section-kicker">Our team</p>
+          <h2>Researchers, builders, and public-sector technologists.</h2>
+          <p>A² is led by founders focused on translating advanced perception technologies into useful, testable, and deployable public-safety workflows.</p>
+        </div>
+
+        <div class="about-founder-grid">
+          <article class="about-founder-card reveal">
             <img src="assets/img/founder-placeholder.svg" alt="Founder image placeholder for Matthew Corbett">
             <div>
-              <h3><a href="https://www.linkedin.com/in/matthew-corbett-56a0b093/" target="_blank" rel="noopener noreferrer" aria-label="Matthew Corbett LinkedIn profile">Matthew Corbett, Ph.D.</a></h3>
               <p class="role">Co-Founder · CEO</p>
-              <p>Matthew Corbett leads A² Perceptions as CEO, guiding company strategy, commercialization direction, and the translation of shared XR research into public-safety mission workflows.</p>
+              <h3><a href="https://www.linkedin.com/in/matthew-corbett-56a0b093/" target="_blank" rel="noopener noreferrer">Matthew Corbett, Ph.D.</a></h3>
+              <p>Matthew Corbett guides company strategy, commercialization direction, customer discovery, and the translation of shared XR research into public-safety mission workflows.</p>
             </div>
           </article>
-          <article class="card dark founder-card reveal">
-            <img src="assets/img/matt-wilchek-headshot.png" alt="Founder image placeholder for Matthew Wilchek">
+
+          <article class="about-founder-card reveal">
+            <img src="assets/img/matt-wilchek-headshot.png" alt="Matthew Wilchek founder headshot">
             <div>
-              <h3><a href="https://www.linkedin.com/in/matthew-wilchek-phd-1b52b3207/" target="_blank" rel="noopener noreferrer" aria-label="Matthew Wilchek LinkedIn profile">Matthew Wilchek, Ph.D.</a></h3>
               <p class="role">Co-Founder · CTO</p>
+              <h3><a href="https://www.linkedin.com/in/matthew-wilchek-phd-1b52b3207/" target="_blank" rel="noopener noreferrer">Matthew Wilchek, Ph.D.</a></h3>
               <p>Matthew Wilchek leads the technical vision for A², drawing on experience in AI, XR, shared perception, human-in-the-loop systems, and public-sector field technology development.</p>
             </div>
           </article>
@@ -126,43 +102,38 @@
       </div>
     </section>
 
-    <section class="section problem-band">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <p class="section-kicker reveal">Why public safety</p>
-            <h2 class="reveal">The first focus is the responder in motion.</h2>
-          </div>
-          <p class="copy reveal">Search and rescue, law enforcement, EMS, and disaster response all involve teams moving through uncertain environments while coordinating across radio, command, maps, sensors, and time pressure. A² is designed around that operational reality.</p>
+    <section class="section about-location-section">
+      <div class="container location-grid">
+        <div class="location-copy reveal">
+          <p class="section-kicker">Why here</p>
+          <h2>Northern Virginia is a strong place to build for public safety.</h2>
         </div>
-        <div class="grid cols-3">
-          <article class="card reveal"><h3>High-stakes environments</h3><p>The platform is being shaped for missions where coordination and context can affect safety and outcomes.</p></article>
-          <article class="card reveal"><h3>Shared spatial awareness</h3><p>The company’s research roots are directly aligned with the need to share what responders see, mark, and understand.</p></article>
-          <article class="card reveal"><h3>Practical hardware path</h3><p>The current platform direction uses commercially available XR hardware rather than relying on custom headsets from day one.</p></article>
+        <div class="location-cards">
+          <article class="location-card reveal"><h3>Close to SAR operating realities</h3><p>Virginia includes mountain, forest, park, rural, and urban-edge search environments where team coordination and navigation matter.</p></article>
+          <article class="location-card reveal"><h3>Near Washington, D.C.</h3><p>The region connects public-safety expertise, emergency management, federal stakeholders, research institutions, and mission-focused technology partners.</p></article>
+          <article class="location-card reveal"><h3>Built for broader response</h3><p>Starting with SAR lets A² test a concrete mission need before expanding the same field-awareness loop to other public-safety teams.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="connect" class="contact-band">
+    <section id="connect" class="contact-band about-contact-band">
       <div class="container">
         <div class="contact-box reveal">
           <p class="section-kicker">Connect with A²</p>
-          <h2>Let’s talk about responder workflows, field constraints, and future pilots.</h2>
-          <p>A² Perceptions is currently developing its platform vision and welcomes conversations with SAR teams, public-safety professionals, emergency managers, researchers, and technology partners.</p>
+          <h2>Help shape the platform vision.</h2>
+          <p>A² Perceptions welcomes conversations with SAR teams, public-safety professionals, emergency managers, researchers, and technology partners as we continue to define the right product path.</p>
           <p><strong>Email:</strong> <a href="mailto:contact@a2perceptions.com">contact@a2perceptions.com</a></p>
-          <p style="font-size:13px;color:#9aa3a0;margin-top:18px;">Replace this placeholder email with the final company address before launch.</p>
         </div>
-        <img class="contact-logo reveal" src="assets/img/a2-emblem-clean.png" alt="Official A² Perceptions emblem">
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-col footer-logo"><img src="assets/img/a2-logo-official-footer.png" alt="Official A² Perceptions logo"><p>Shared Field Intelligence for Public-Safety.</p></div>
-      <div class="footer-col"><h4>Explore</h4><a href="index.html">Home</a><a href="vision.html">Vision</a><a href="platform.html">Platform</a></div>
-      <div class="footer-col"><h4>Missions</h4><a href="index.html">Search &amp; Rescue</a><a href="index.html">Police</a><a href="index.html">EMS</a></div>
-      <div class="footer-col"><h4>Connect</h4><a href="#connect">Contact</a><a href="#founders">Founders</a><a href="platform.html">Platform concept</a></div>
+      <div class="footer-col footer-logo"><img src="assets/img/a2-logo-official.png" alt="Official A² Perceptions logo"><p>Shared Field Intelligence for Public-Safety</p></div>
+      <div class="footer-col"><h4>Explore</h4><a href="index.html">Home</a><a href="vision.html">Vision</a><a href="about.html">About</a></div>
+      <div class="footer-col"><h4>About</h4><a href="#founders">Founders</a><a href="#connect">Connect</a><a href="vision.html#references">Research Timeline</a></div>
+      <div class="footer-col"><h4>Connect</h4><a href="about.html#connect">Contact</a><a href="vision.html">Vision</a><a href="index.html">Home</a></div>
     </div>
     <div class="footer-bottom"><div class="container"><span>© <span id="year">2026</span> A² Perceptions LLC. All rights reserved.</span><span>Platform in development. Concept visuals are illustrative.</span></div></div>
   </footer>

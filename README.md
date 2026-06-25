@@ -1,35 +1,125 @@
 # A² Perceptions LLC Website
 
-Static website files for GitHub Pages hosting.
+Static website files for the A² Perceptions LLC public website.
 
-## Pages
+A² Perceptions is developing shared field intelligence for public-safety teams, with an initial focus on search and rescue and future applications across police, EMS, disaster response, and field command.
 
-- `index.html` — homepage / platform vision overview
-- `vision.html` — why the company exists and where the platform is headed
-- `platform.html` — platform concept, architecture, and capability model
-- `about.html` — origin story, mission/vision, founders, and contact
-- `404.html` — basic GitHub Pages fallback page
+## Website Structure
 
-## Assets
+The site is currently organized around three primary pages:
 
-- `assets/css/styles.css` — design system, layout, colors, responsive behavior
-- `assets/js/main.js` — mobile navigation and scroll reveal interactions
-- `assets/img/` — generated SVG concept visuals and logo files
-- `assets/video/a2-field-loop.mp4` — generated abstract hero loop for early concept use
+### Home — `index.html`
 
-## Before launch
+The Home page introduces the company vision and the public-safety problem A² is focused on solving. It presents the core concept of shared field intelligence and highlights the initial SAR-focused capability areas:
 
-1. Replace `contact@a2perceptions.com` in `about.html` with the final company email.
-2. Replace founder placeholder SVGs with real founder photos if desired.
-3. Replace generated concept visuals/video with real field footage or product renderings when available.
-4. Confirm the final domain. For GitHub Pages custom domain hosting, add a `CNAME` file containing only the domain, such as:
+- Navigation and wayfinding
+- Interview and evidence capture
+- Multi-feed intelligence
+- Team collaboration
 
-   ```text
-   www.example.com
-   ```
+This page also includes the primary hero section, capability visuals, public-safety positioning, and a call to connect with the founders.
 
-5. In GoDaddy DNS, point the custom domain to GitHub Pages using either a CNAME record for `www` or A records for an apex domain, following GitHub Pages' current custom domain instructions.
+### Vision — `vision.html`
 
-## Notes
+The Vision page explains the research-to-commercialization path behind A² Perceptions. It connects the company direction to prior work in shared perception, XR, AI-assisted sensemaking, privacy-aware AR, and distributed SAR collaboration.
 
-This version intentionally avoids mature-vendor claims, deployment logos, a news page, and VIPC funding language. It positions A² Perceptions as an early-stage, serious public-safety XR company developing a platform vision.
+The page currently covers:
+
+- The commercial thesis for field-aligned XR guidance
+- Research insights from prior publications
+- Product implications from that research
+- A technical direction focused on hybrid localization, mission-data interoperability, and uncertainty-aware cueing
+- A research-to-commercialization timeline
+- References to the academic foundation behind the company vision
+
+### About — `about.html`
+
+The About page describes who A² Perceptions is, where the company is located, and why Northern Virginia is a strong place to build public-safety technology.
+
+The page currently covers:
+
+- Northern Virginia location context
+- Mission and vision
+- Company origin story
+- Founder profiles
+- Why the region is relevant to SAR, public safety, emergency management, federal stakeholders, and technology partners
+- Contact information
+
+## Supporting Files
+
+### Styles
+
+Primary styling is located under:
+
+```text
+assets/css/
+```
+
+Current page-specific styles may include:
+
+```text
+assets/css/styles.css
+assets/css/vision-page.css
+assets/css/about-page.css
+```
+
+`styles.css` contains the shared design system and base layout styles. Page-specific CSS files are used to keep Vision and About changes scoped without unintentionally altering the Home page.
+
+### Scripts
+
+JavaScript files are located under:
+
+```text
+assets/js/
+```
+
+These files support navigation behavior, scroll effects, and other lightweight front-end interactions.
+
+### Images
+
+Image assets are located under:
+
+```text
+assets/img/
+```
+
+This folder includes the A² Perceptions logo assets, founder images, and concept visuals used throughout the site.
+
+### Video
+
+Video assets are located under:
+
+```text
+assets/video/
+```
+
+This folder may include the homepage field-loop background video or related concept media.
+
+## Deployment
+
+This site is designed for GitHub Pages hosting.
+
+Typical deployment flow:
+
+1. Replace or update the relevant files in the repository.
+2. Commit the changes to the `main` branch.
+3. Ensure GitHub Pages is configured to deploy from the `main` branch and root directory.
+4. Wait for GitHub Pages to rebuild and publish the updated site.
+
+## Repository Notes
+
+- The website is static HTML, CSS, JavaScript, images, and video.
+- The current navigation includes Home, Vision, About, and Connect With Us.
+- The Platform page has been removed from the active navigation.
+- Concept visuals are illustrative and represent the product vision, not a finished deployed platform.
+- The company is still in an early development stage and the site should be treated as a vision and customer-discovery website rather than a mature product sales page.
+
+## Suggested Editing Practice
+
+When making future updates:
+
+- Avoid changing `index.html` unless the Home page is intentionally being revised.
+- Keep page-specific layout changes in page-specific CSS files when possible.
+- Preserve the dark tactical design language across pages.
+- Keep the content concise, clear, and focused on SAR-first public-safety workflows.
+- Avoid adding funding or grant details unless the company intentionally decides to make them public.

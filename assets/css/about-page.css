@@ -797,3 +797,21 @@
     white-space: normal !important;
   }
 }
+
+/* Mobile footer logo centering */
+@media (max-width: 760px) {
+  .footer-logo {
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .footer-logo img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .footer-logo p {
+    text-align: center !important;
+  }
+}

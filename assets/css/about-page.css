@@ -7,8 +7,8 @@
 }
 
 .about-redesign .site-header {
-  background: linear-gradient(90deg, rgba(7, 12, 13, .98), rgba(7, 28, 12, .95)) !important;
-  border-bottom: 1px solid rgba(88, 255, 31, .22) !important;
+  background: linear-gradient(90deg, rgba(7, 12, 13, .98), rgba(7,18,28,.95)) !important;
+  border-bottom: 1px solid rgba(56,189,248,.22) !important;
   box-shadow: 0 18px 60px rgba(0, 0, 0, .24);
 }
 
@@ -22,13 +22,13 @@
   display: grid;
   align-items: end;
   background:
-    radial-gradient(circle at 25% 25%, rgba(88,255,31,.15), transparent 32%),
+    radial-gradient(circle at 25% 25%, rgba(56,189,248,.15), transparent 32%),
     radial-gradient(circle at 84% 22%, rgba(55,170,255,.075), transparent 28%),
     linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
     linear-gradient(180deg, #091112 0%, #05090a 100%);
   background-size: auto, auto, 120px 120px, 120px 120px, auto;
-  border-bottom: 1px solid rgba(88,255,31,.20);
+  border-bottom: 1px solid rgba(56,189,248,.20);
 }
 
 .about-hero-inner {
@@ -57,7 +57,7 @@
 .tenets-section,
 .founders-about-section {
   background:
-    radial-gradient(circle at 90% 10%, rgba(88,255,31,.06), transparent 28%),
+    radial-gradient(circle at 90% 10%, rgba(56,189,248,.06), transparent 28%),
     #070c0d;
 }
 
@@ -75,7 +75,7 @@
   padding: clamp(30px, 3vw, 44px);
   background:
     linear-gradient(145deg, rgba(255,255,255,.072), rgba(255,255,255,.026)),
-    radial-gradient(circle at 100% 0%, rgba(88,255,31,.06), transparent 36%);
+    radial-gradient(circle at 100% 0%, rgba(56,189,248,.06), transparent 36%);
   box-shadow: 0 24px 80px rgba(0,0,0,.24);
 }
 
@@ -102,7 +102,7 @@
 
 .about-story-section .section-kicker,
 .about-location-section .section-kicker {
-  color: #087a2d;
+  color: #0369a1;
 }
 
 .story-grid,
@@ -140,7 +140,7 @@
 
 .story-stat span {
   display: block;
-  color: #087a2d;
+  color: #0369a1;
   font-weight: 900;
   letter-spacing: .13em;
   text-transform: uppercase;
@@ -505,7 +505,7 @@
 }
 
 .about-mission-section .section-kicker {
-  color: #087a2d !important;
+  color: #0369a1 !important;
 }
 
 .about-mission-section .mission-block {
@@ -525,11 +525,11 @@
 /* Story row: switch to dark band */
 .about-story-section {
   background:
-    radial-gradient(circle at 90% 12%, rgba(88,255,31,.065), transparent 28%),
+    radial-gradient(circle at 90% 12%, rgba(56,189,248,.065), transparent 28%),
     #070c0d !important;
   color: var(--text) !important;
-  border-top: 1px solid rgba(88,255,31,.14);
-  border-bottom: 1px solid rgba(88,255,31,.14);
+  border-top: 1px solid rgba(56,189,248,.14);
+  border-bottom: 1px solid rgba(56,189,248,.14);
 }
 
 .about-story-section .section-kicker {
@@ -547,7 +547,7 @@
 .about-story-section .story-panel {
   background:
     linear-gradient(145deg, rgba(255,255,255,.072), rgba(255,255,255,.026)),
-    radial-gradient(circle at 100% 0%, rgba(88,255,31,.07), transparent 36%) !important;
+    radial-gradient(circle at 100% 0%, rgba(56,189,248,.07), transparent 36%) !important;
   border: 1px solid rgba(255,255,255,.13) !important;
   box-shadow: 0 24px 80px rgba(0,0,0,.24) !important;
 }
@@ -578,7 +578,7 @@
 }
 
 .founders-about-section .section-kicker {
-  color: #087a2d !important;
+  color: #0369a1 !important;
 }
 
 .founders-about-section .about-section-head {
@@ -637,10 +637,10 @@
 /* Why Here row: switch to dark band */
 .about-location-section {
   background:
-    radial-gradient(circle at 10% 12%, rgba(88,255,31,.07), transparent 28%),
+    radial-gradient(circle at 10% 12%, rgba(56,189,248,.07), transparent 28%),
     #070c0d !important;
   color: var(--text) !important;
-  border-top: 1px solid rgba(88,255,31,.14);
+  border-top: 1px solid rgba(56,189,248,.14);
 }
 
 .about-location-section .section-kicker {
@@ -654,7 +654,7 @@
 .about-location-section .location-card {
   background:
     linear-gradient(145deg, rgba(255,255,255,.072), rgba(255,255,255,.026)),
-    radial-gradient(circle at 100% 0%, rgba(88,255,31,.07), transparent 36%) !important;
+    radial-gradient(circle at 100% 0%, rgba(56,189,248,.07), transparent 36%) !important;
   border: 1px solid rgba(255,255,255,.13) !important;
   box-shadow: 0 24px 80px rgba(0,0,0,.24) !important;
 }

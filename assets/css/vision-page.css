@@ -7,8 +7,8 @@
 }
 
 .vision-redesign .site-header {
-  background: linear-gradient(90deg, rgba(7, 12, 13, .98), rgba(7, 28, 12, .95)) !important;
-  border-bottom: 1px solid rgba(88, 255, 31, .22) !important;
+  background: linear-gradient(90deg, rgba(7, 12, 13, .98), rgba(7,18,28,.95)) !important;
+  border-bottom: 1px solid rgba(56,189,248,.22) !important;
   box-shadow: 0 18px 60px rgba(0, 0, 0, .24);
 }
 
@@ -24,13 +24,13 @@
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(circle at 22% 30%, rgba(88,255,31,.15), transparent 32%),
+    radial-gradient(circle at 22% 30%, rgba(56,189,248,.15), transparent 32%),
     radial-gradient(circle at 82% 20%, rgba(55,170,255,.08), transparent 28%),
     linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
     linear-gradient(180deg, #091112 0%, #05090a 100%);
   background-size: auto, auto, 120px 120px, 120px 120px, auto;
-  border-bottom: 1px solid rgba(88,255,31,.20);
+  border-bottom: 1px solid rgba(56,189,248,.20);
 }
 
 .vision-hero::after {
@@ -74,7 +74,7 @@
   padding: clamp(28px, 3vw, 42px);
   background:
     linear-gradient(145deg, rgba(255,255,255,.075), rgba(255,255,255,.026)),
-    radial-gradient(circle at 100% 0%, rgba(88,255,31,.09), transparent 38%);
+    radial-gradient(circle at 100% 0%, rgba(56,189,248,.09), transparent 38%);
   box-shadow: 0 26px 90px rgba(0,0,0,.32);
 }
 
@@ -130,7 +130,7 @@
 .nsf-direction-section,
 .commercialization-section {
   background:
-    radial-gradient(circle at 90% 8%, rgba(88,255,31,.065), transparent 28%),
+    radial-gradient(circle at 90% 8%, rgba(56,189,248,.065), transparent 28%),
     #070c0d;
 }
 
@@ -149,7 +149,7 @@
   padding: 30px;
   background:
     linear-gradient(145deg, rgba(255,255,255,.072), rgba(255,255,255,.026)),
-    radial-gradient(circle at 100% 0%, rgba(88,255,31,.06), transparent 36%);
+    radial-gradient(circle at 100% 0%, rgba(56,189,248,.06), transparent 36%);
   box-shadow: 0 22px 70px rgba(0,0,0,.23);
 }
 
@@ -191,7 +191,7 @@
 .customer-discovery-section .section-kicker,
 .launch-path-section .section-kicker,
 .vision-references-section .section-kicker {
-  color: #087a2d;
+  color: #0369a1;
 }
 
 .research-insights-section h2,
@@ -234,9 +234,9 @@
   width: 58px;
   height: 58px;
   border-radius: 18px;
-  color: #087a2d;
-  border: 1px solid rgba(8,122,45,.25);
-  background: rgba(8,122,45,.08);
+  color: #0369a1;
+  border: 1px solid rgba(3,105,161,.25);
+  background: rgba(3,105,161,.08);
   font-weight: 900;
 }
 
@@ -254,13 +254,13 @@
 }
 
 .product-implication {
-  border-left: 3px solid #087a2d;
+  border-left: 3px solid #0369a1;
   padding-left: 22px;
 }
 
 .product-implication span {
   display: block;
-  color: #087a2d;
+  color: #0369a1;
   font-weight: 900;
   letter-spacing: .12em;
   text-transform: uppercase;
@@ -279,11 +279,11 @@
   gap: 28px;
   align-items: center;
   padding: clamp(28px, 3vw, 44px);
-  border: 1px solid rgba(88,255,31,.22);
+  border: 1px solid rgba(56,189,248,.22);
   border-radius: 28px;
   background:
-    linear-gradient(145deg, rgba(88,255,31,.08), rgba(255,255,255,.026)),
-    radial-gradient(circle at 100% 0%, rgba(88,255,31,.10), transparent 32%);
+    linear-gradient(145deg, rgba(56,189,248,.08), rgba(255,255,255,.026)),
+    radial-gradient(circle at 100% 0%, rgba(56,189,248,.10), transparent 32%);
 }
 
 .feasibility-band h3 {
@@ -356,7 +356,7 @@
   display: grid;
   place-items: center;
   border-radius: 999px;
-  background: #087a2d;
+  background: #0369a1;
   color: #fff;
   font-weight: 900;
 }
@@ -367,7 +367,7 @@
 }
 
 .launch-roadmap span {
-  color: #087a2d;
+  color: #0369a1;
   font-weight: 900;
   letter-spacing: .12em;
   text-transform: uppercase;
@@ -399,7 +399,7 @@
 }
 
 .vision-reference-list a {
-  color: #087a2d;
+  color: #0369a1;
   font-weight: 900;
 }
 
@@ -505,7 +505,7 @@
   top: 22px;
   bottom: 22px;
   width: 2px;
-  background: linear-gradient(180deg, rgba(8,122,45,.18), rgba(8,122,45,.90), rgba(8,122,45,.18));
+  background: linear-gradient(180deg, rgba(3,105,161,.18), rgba(3,105,161,.90), rgba(3,105,161,.18));
 }
 
 .timeline-item {
@@ -518,7 +518,7 @@
 }
 
 .timeline-year {
-  color: #087a2d;
+  color: #0369a1;
   font-weight: 900;
   font-size: 20px;
   letter-spacing: .08em;
@@ -533,8 +533,8 @@
   place-items: center;
   border-radius: 16px;
   background: #071011;
-  border: 1px solid rgba(8,122,45,.36);
-  box-shadow: 0 0 0 8px rgba(8,122,45,.07);
+  border: 1px solid rgba(3,105,161,.36);
+  box-shadow: 0 0 0 8px rgba(3,105,161,.07);
   font-size: 23px;
 }
 
@@ -548,7 +548,7 @@
 
 .timeline-label {
   margin: 0 0 8px;
-  color: #087a2d !important;
+  color: #0369a1 !important;
   font-size: 12px;
   font-weight: 900;
   letter-spacing: .13em;
@@ -568,7 +568,7 @@
 }
 
 .timeline-content a {
-  color: #087a2d;
+  color: #0369a1;
   font-weight: 900;
   text-decoration: none;
 }
@@ -579,14 +579,14 @@
 }
 
 .now-item .timeline-icon {
-  background: #087a2d;
+  background: #0369a1;
   border-color: rgba(7,12,13,.12);
 }
 
 .now-item .timeline-content {
-  border-color: rgba(8,122,45,.25);
+  border-color: rgba(3,105,161,.25);
   background:
-    radial-gradient(circle at 100% 0%, rgba(8,122,45,.10), transparent 32%),
+    radial-gradient(circle at 100% 0%, rgba(3,105,161,.10), transparent 32%),
     rgba(255,255,255,.76);
 }
 
@@ -647,7 +647,7 @@
 /* Rename/reuse the dark technical section style without NSF-specific naming. */
 .technical-direction-section {
   background:
-    radial-gradient(circle at 88% 12%, rgba(88,255,31,.07), transparent 28%),
+    radial-gradient(circle at 88% 12%, rgba(56,189,248,.07), transparent 28%),
     #070c0d;
 }
 

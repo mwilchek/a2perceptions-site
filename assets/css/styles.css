@@ -359,6 +359,58 @@ main { overflow: hidden; }
 .footer-logo img { width:240px; max-width:100%; height:auto; }
 .footer-col h4 { margin:0 0 20px; color:var(--muted-2); font-size:12px; text-transform:uppercase; letter-spacing:.12em; }
 .footer-col a, .footer-col p { display:block; color:rgba(247,243,234,.74); margin:10px 0; font-size:14px; }
+/* Virginia SWaM certification strip — shared across every page footer. */
+.footer-certification {
+  border-top: 1px solid var(--line);
+  background: #0a1116;
+  text-align: center;
+}
+.footer-certification-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.footer-certification-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: .075em;
+  text-transform: uppercase;
+}
+.footer-certification-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--green);
+}
+.footer-certification-designations,
+.footer-certification-number { margin: 0; line-height: 1.55; }
+.footer-certification-designations {
+  color: rgba(247,243,234,.8);
+  font-size: 13px;
+}
+.footer-certification-designations span { color: var(--green); padding: 0 3px; }
+.footer-certification-number {
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .035em;
+}
+@media (max-width: 560px) {
+  .footer-certification-inner { padding-top: 22px; padding-bottom: 22px; }
+  .footer-certification-heading { font-size: 12px; gap: 8px; }
+  .footer-certification-icon { width: 19px; height: 19px; }
+  .footer-certification-designations { max-width: 300px; font-size: 12px; }
+}
+
 .footer-bottom { border-top:1px solid var(--line); color:var(--muted-2); font-size:13px; padding:18px 0; }
 .footer-bottom .container { display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap; }
 
